@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+body {
+  background-color: #f2f4fc;
+}
+/* NAV_BAR */
+li,
+a,
+button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 17px;
+  color: #6b708d;
+  text-decoration: none;
+}
+.azul {
+  color: #072ac8;
+}
+
+.nav_bar {
+  display: flex;
+  display: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  width: 80%;
+}
+.nav_links {
+  align-items: center;
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_form {
+  background-color: #072ac8;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: white;
+}

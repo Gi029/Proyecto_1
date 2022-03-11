@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+  }
+  
+  body {
+    background-color: #f2f4fc;
+  }
+  /* NAV_BAR */
+  li,
+  a,
+  button {
+    font-family: Roboto;
+    font-weight: 500px;
+    font-size: 17px;
+    color: #6b708d;
+    text-decoration: none;
+  }
+  .azul {
+    color: #072ac8;
+  }
+  
+  .nav_bar {
+    position: relative;
+    display: flex;
+    display: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+ 
+  }
+  .nav_links {
+    align-items: center;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn_form {
+    background-color: #072ac8;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+
+/* FORM */
+.ssectionContact {
+  margin-top: 0px;
+  padding: 0px 32px;
+}
+.containerContact {
+  margin-top: 200px;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.contactHeading {
+  margin-bottom: 80px;
+  font-size: 60px;
+  line-height: 110%;
+  }
+  h1
